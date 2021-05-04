@@ -1,15 +1,20 @@
-## Welcome to GitHub Pages
+# Instacart Market Basket Analysis
+[Cheng Zeng (Jane)](https://www.linkedin.com/in/chengzeng92/), M.S. Data Science <br/>
+George Washington University
+## Introduction
 
-You can use the [editor on GitHub](https://github.com/MiyukiJade/instacart_market_basket_analysis/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+With the development of the modern society and new technology, the population is developing a tendency to shop online rather than shop in physical stores. Online shopping means convenience, time saving, cost saving, and many other benefits.During online shopping, customers have more options and can view hundreds of products in a few minutes instead of  having to walk to different areas. Also, customers can also save time by avoiding travel time in between their home and the stores while also avoiding the waiting in a queue for checkout.
+According to the report “Consumer buying behavior towards online shopping”, Johnson et al explains that “trade and commerce have been so diversified that multichannel has taken place and online shopping has increased significantly throughout the world in the twenty-first century”.  The e-commerce already constituted of about $2.29 trillion dollars market globally by 2018 due to the double-digit worldwide growth in sales and order. In the past year, e-commerce was boosted by COVID-19. Taylor Soper shows the new data from Adobe, the pandemic brought an additional $183 billion dollars from March 2020 to February 2021. This report also points out the pandemic boosted the online spending by about 20 percent during this period. As a response, a company named Instacart created a website and mobile application to offer a service that allows users to order groceries and personal items from participating retailers.  After the selection from users, Instacart application will review the users’ orders and do the in-store shopping and deliver the order to them. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Purpose & Goals:
+The goal of this project is to use transactional data to develop models that predict which product a user will buy again, try for the first time, or add to their cart during a future session. The dataset we use is from [Kaggle](https://www.kaggle.com/c/instacart-market-basket-analysis), and it includes 3 million Instacart orders.
 
-### Markdown
+## Methodology
+### Tools & Software:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
+Python 3.6 package <br/>
+PCA/K-mean <br/>
+XGBoost
 
 # Header 1
 ## Header 2
