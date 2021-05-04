@@ -19,7 +19,7 @@ XGBoost
 ## Data Analysis
 ### Data Preprocessing and EDA
 
-[Link to notebook] (https://github.com/JaneZeng92/instacart_market_basket_analysis/blob/main/EDA.py)
+[Link to notebook](https://github.com/JaneZeng92/instacart_market_basket_analysis/blob/main/EDA.py)
 
 Simply reviewed the data information and found out the files contain some “N/A” columns. However, we did not drop or replace any “N/A” columns so we can receive more accurate test result. 
 Before the exploratory analysis, we read all the files as dataframe objects and found out there are several “N/A” columns. However, these “N/A” columns do not affect our data exploratory for now. In order to figure out the relationship in “order_products_prior”, “aisles”, “departments” and “orders” file, we merge these details together.
