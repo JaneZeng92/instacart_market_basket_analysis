@@ -10,11 +10,21 @@ According to the report “Consumer buying behavior towards online shopping”, 
 The goal of this project is to use transactional data to develop models that predict which product a user will buy again, try for the first time, or add to their cart during a future session. The dataset we use is from [Kaggle](https://www.kaggle.com/c/instacart-market-basket-analysis), and it includes 3 million Instacart orders.
 
 ## Methodology
-### Tools & Software:
-
+### Tools & Software & Mehtodology:
 Python 3.6 package <br/>
 PCA/K-mean <br/>
 XGBoost
+
+
+## Data Analysis
+### Data Preprocessing and EDA
+
+[Link to notebook] (https://github.com/JaneZeng92/instacart_market_basket_analysis/blob/main/EDA.py)
+
+Simply reviewed the data information and found out the files contain some “N/A” columns. However, we did not drop or replace any “N/A” columns so we can receive more accurate test result. 
+Before the exploratory analysis, we read all the files as dataframe objects and found out there are several “N/A” columns. However, these “N/A” columns do not affect our data exploratory for now. In order to figure out the relationship in “order_products_prior”, “aisles”, “departments” and “orders” file, we merge these details together.
+
+
 
 # Header 1
 ## Header 2
